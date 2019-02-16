@@ -1,0 +1,20 @@
+
+Step 1:
+- First find the file path of Python installation on your device
+	- if you do not know where your Python was installed do the following step:
+		- open "cmd"
+		- type 'python'
+		- Python 2.6.6 (r266:84297, Aug 24 2010, 18:13:38) [MSC v.1500 64 bit (AMD64)] on win32
+			Type "help", "copyright", "credits" or "license" for more information.
+			>>> import sys
+			>>> sys.executable
+			'c:\\Python26\\python.exe'
+
+		After you know the location of your python installation follow step 2.
+
+Step 2:
+- open "cmd"
+- cd into file path to python but this time go into script
+- in our example it will be "cd "\Python26\Scripts"
+- once inside "Scripts" folder run command 'pip.exe install <name_of_module>'
+	example : pip.exe install pyperclip
